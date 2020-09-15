@@ -1,5 +1,5 @@
 # Create the StatefulSet needed for redundancy
-apiVersion: apps/v1
+apiVersion: apps/v1beta1
 kind: StatefulSet
 metadata:
   name: {{ template "solace.fullname" . }}
